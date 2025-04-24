@@ -1,49 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Selamat Ulang Tahun!</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f0f0f0;
-    }
-    h1 {
-      color: #333;
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
-    p {
-      color: #666;
-      font-size: 24px;
-      margin-bottom: 40px;
-    }
-    .container {
-      max-width: 600px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,   
- 0, 0, 0.1);
-    }
-
-    .container img {
-        width: 100%;
-        height: auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV | Your Name</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">   
+    <div class="cv-container">
+        <!-- Left Column - Profile Information -->
+        <aside class="profile-column">
+            <div class="profile-header">
+                <img src="images/profile-placeholder.jpg" alt="Profile Picture" class="profile-img">
+                <h1>Your Name</h1>
+                <h2>Web Developer</h2>
+            </div>
 
-    <h1>Selamat Ulang Tahun, Ibuku tersayang</h1>
-    <p>Semoga panjang umur, sehat selalu dan penuh berkah.</p>
-    <img src="gambar_ultah.jpg.jpg" alt="Gambar Ulang Tahun">
-    <p>Maafin aku belum bisa banggain ibu.</p>
-    <p>Makasih yaa udah sabar membesarkan kita.</p>
-    <p>thank you very much, always be healthy okay.</p>
-    <img src="IMG-20210520-WA0020.jpg" alt="Gambar Ulang Tahun">
-  </div>
+            <section class="contact-info">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> your.email@example.com</li>
+                    <li><i class="fas fa-phone"></i> +62 812 3456 7890</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h3>Technical Skills</h3>
+                <div class="skill-item">
+                    <p>HTML/CSS</p>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <p>JavaScript</p>
+                    <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <p>UI/UX Design</p>
+                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                </div>
+                <div class="skill-item">
+                    <p>React</p>
+                    <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+                </div>
+            </section>
+
+            <section class="languages">
+                <h3>Languages</h3>
+                <div class="language-item">
+                    <p>Indonesian</p>
+                    <div class="language-level">Native</div>
+                </div>
+                <div class="language-item">
+                    <p>English</p>
+                    <div class="language-level">Fluent</div>
+                </div>
+            </section>
+        </aside>
+
+        <!-- Right Column - Main Content -->
+        <main class="content-column">
+            <section class="about-section">
+                <h2><i class="fas fa-user-tie"></i> Professional Profile</h2>
+                <p>Detail-oriented Web Developer with 3+ years of experience designing and building responsive websites and web applications. Strong background in front-end development, UI/UX design principles, and cross-browser compatibility. Passionate about creating efficient, user-friendly digital experiences.</p>
+            </section>
+
+            <section class="experience-section">
+                <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+                
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>Frontend Developer</h3>
+                        <p class="company">Tech Solutions Inc.</p>
+                        <p class="date">2022 - Present</p>
+                    </div>
+                    <ul class="timeline-content">
+                        <li>Developed and maintained responsive web applications using React, HTML5, and CSS3</li>
+                        <li>Collaborated with UX designers to implement pixel-perfect interfaces</li>
+                        <li>Optimized frontend performance, reducing load times by 35%</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>Web Design Intern</h3>
+                        <p class="company">Digital Creative Agency</p>
+                        <p class="date">Jun 2021 - Dec 2021</p>
+                    </div>
+                    <ul class="timeline-content">
+                        <li>Assisted in designing and coding marketing websites for 10+ clients</li>
+                        <li>Created wireframes and prototypes using Figma</li>
+                        <li>Implemented responsive designs that increased mobile engagement by 40%</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="education-section">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <h3>Bachelor of Computer Science</h3>
+                        <p class="company">Universitas Cakrawala</p>
+                        <p class="date">2018 - 2022</p>
+                    </div>
+                    <ul class="timeline-content">
+                        <li>GPA: 3.8/4.0</li>
+                        <li>Specialization in Web Technologies</li>
+                        <li>Thesis: "Optimizing Web Performance for Emerging Markets"</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="projects-section">
+                <h2><i class="fas fa-project-diagram"></i> Key Projects</h2>
+                
+                <div class="project-item">
+                    <h3>E-commerce Platform Redesign</h3>
+                    <p class="project-description">Led the redesign of a major retail e-commerce platform, resulting in a 25% increase in conversion rates.</p>
+                    <p class="project-tech">React, Node.js, MongoDB, AWS</p>
+                </div>
+
+                <div class="project-item">
+                    <h3>Corporate Dashboard Application</h3>
+                    <p class="project-description">Developed an internal analytics dashboard for enterprise clients to visualize business metrics.</p>
+                    <p class="project-tech">Vue.js, D3.js, Firebase</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="cv-footer">
+        <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#"><i class="fab fa-behance"></i> Behance</a>
+        </div>
+        <p class="copyright">&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>

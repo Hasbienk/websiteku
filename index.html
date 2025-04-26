@@ -1,144 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional CV | Your Name</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>CV - Muhammad Hasbi Nurkhalish</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="cv-container">
-        <!-- Left Column - Profile Information -->
-        <aside class="profile-column">
-            <div class="profile-header">
-                <img src="images/profile-placeholder.jpg" alt="Profile Picture" class="profile-img">
-                <h1>Your Name</h1>
-                <h2>Web Developer</h2>
-            </div>
+        
+        <!-- Header -->
+        <header class="cv-header">
+            <img src="imagesprofile-placeholder.jpeg" alt="Foto Profil" class="profile-picture">
+            <h1>Muhammad Hasbi Nurkhalish</h1>
+            <p class="professional-title">Content Creator | Sound Engineer | Educator</p>
+        </header>
 
-            <section class="contact-info">
-                <h3>Contact</h3>
-                <ul>
-                    <li><i class="fas fa-envelope"></i> your.email@example.com</li>
-                    <li><i class="fas fa-phone"></i> +62 812 3456 7890</li>
-                    <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+        <main class="cv-content">
+
+            <!-- Tentang Saya -->
+            <section class="about-section">
+                <h2>Tentang Saya</h2>
+                <p>Saya adalah seorang pendidik muda dengan pengalaman di bidang dokumentasi acara, fotografi, dan manajemen teknis sound system. Memiliki semangat belajar tinggi, bertanggung jawab, serta terbiasa bekerja dalam tim untuk menciptakan hasil terbaik.</p>
+            </section>
+
+            <!-- Pendidikan -->
+            <section class="education-section">
+                <h2>Pendidikan</h2>
+                <div class="education-item">
+                    <h3>MA Daarul Uluum Lido</h3>
+                    <p class="education-year">2020 - 2023</p>
+                </div>
+                <div class="education-item">
+                    <h3>SMP Daarul Uluum Lido</h3>
+                    <p class="education-year">2017 - 2020</p>
+                </div>
+            </section>
+
+            <!-- Pengalaman Kerja -->
+            <section class="experience-section">
+                <h2>Pengalaman Kerja</h2>
+                <div class="experience-item">
+                    <h3>Guru Honorer - Pondok Pesantren Daarul Uluum</h3>
+                    <p class="experience-period">2023 - 2024</p>
+                    <ul class="experience-details">
+                        <li>Mengajar mata pelajaran umum dan agama sesuai kurikulum nasional dan pondok pesantren.</li>
+                        <li>Memberikan bimbingan akademik dan karakter kepada siswa.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Fotografer & Operator Sound System</h3>
+                    <p class="experience-period">2023 - 2024</p>
+                    <ul class="experience-details">
+                        <li>Mengambil dokumentasi foto dan video berbagai acara besar pondok pesantren.</li>
+                        <li>Mengelola peralatan sound system dan memastikan kualitas audio baik selama acara berlangsung.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Keterampilan -->
+            <section class="skills-section">
+                <h2>Keterampilan</h2>
+                <ul class="skills-list">
+                    <li>Fotografi dan Videografi</li>
+                    <li>Editing Foto dan Video</li>
+                    <li>Manajemen Sound System</li>
+                    <li>Komunikasi Efektif</li>
+                    <li>Teamwork dan Leadership</li>
                 </ul>
             </section>
 
-            <section class="skills">
-                <h3>Technical Skills</h3>
-                <div class="skill-item">
-                    <p>HTML/CSS</p>
-                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
-                </div>
-                <div class="skill-item">
-                    <p>JavaScript</p>
-                    <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
-                </div>
-                <div class="skill-item">
-                    <p>UI/UX Design</p>
-                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
-                </div>
-                <div class="skill-item">
-                    <p>React</p>
-                    <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
-                </div>
+            <!-- Bahasa -->
+            <section class="language-section">
+                <h2>Bahasa</h2>
+                <ul class="language-list">
+                    <li>Bahasa Indonesia (Aktif)</li>
+                    <li>Bahasa Inggris (Dasar)</li>
+                    <li>Bahasa Arab (Dasar)</li>
+                </ul>
             </section>
 
-            <section class="languages">
-                <h3>Languages</h3>
-                <div class="language-item">
-                    <p>Indonesian</p>
-                    <div class="language-level">Native</div>
-                </div>
-                <div class="language-item">
-                    <p>English</p>
-                    <div class="language-level">Fluent</div>
-                </div>
-            </section>
-        </aside>
-
-        <!-- Right Column - Main Content -->
-        <main class="content-column">
-            <section class="about-section">
-                <h2><i class="fas fa-user-tie"></i> Professional Profile</h2>
-                <p>Detail-oriented Web Developer with 3+ years of experience designing and building responsive websites and web applications. Strong background in front-end development, UI/UX design principles, and cross-browser compatibility. Passionate about creating efficient, user-friendly digital experiences.</p>
+            <!-- Informasi Kontak -->
+            <section class="contact-section">
+                <h2>Kontak</h2>
+                <p><strong>Email:</strong> garoji123@gmail.com</p>
+                <p><strong>No. HP:</strong> +62-821-1406-6265</p>
+                <p><strong>Instagram:</strong> <a href="https://instagram.com/mhmmd_hasbie" target="_blank">@mhmmd_hasbie</a></p>
             </section>
 
-            <section class="experience-section">
-                <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
-                
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Frontend Developer</h3>
-                        <p class="company">Tech Solutions Inc.</p>
-                        <p class="date">2022 - Present</p>
-                    </div>
-                    <ul class="timeline-content">
-                        <li>Developed and maintained responsive web applications using React, HTML5, and CSS3</li>
-                        <li>Collaborated with UX designers to implement pixel-perfect interfaces</li>
-                        <li>Optimized frontend performance, reducing load times by 35%</li>
-                    </ul>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Web Design Intern</h3>
-                        <p class="company">Digital Creative Agency</p>
-                        <p class="date">Jun 2021 - Dec 2021</p>
-                    </div>
-                    <ul class="timeline-content">
-                        <li>Assisted in designing and coding marketing websites for 10+ clients</li>
-                        <li>Created wireframes and prototypes using Figma</li>
-                        <li>Implemented responsive designs that increased mobile engagement by 40%</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="education-section">
-                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-                
-                <div class="timeline-item">
-                    <div class="timeline-header">
-                        <h3>Bachelor of Computer Science</h3>
-                        <p class="company">Universitas Cakrawala</p>
-                        <p class="date">2018 - 2022</p>
-                    </div>
-                    <ul class="timeline-content">
-                        <li>GPA: 3.8/4.0</li>
-                        <li>Specialization in Web Technologies</li>
-                        <li>Thesis: "Optimizing Web Performance for Emerging Markets"</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="projects-section">
-                <h2><i class="fas fa-project-diagram"></i> Key Projects</h2>
-                
-                <div class="project-item">
-                    <h3>E-commerce Platform Redesign</h3>
-                    <p class="project-description">Led the redesign of a major retail e-commerce platform, resulting in a 25% increase in conversion rates.</p>
-                    <p class="project-tech">React, Node.js, MongoDB, AWS</p>
-                </div>
-
-                <div class="project-item">
-                    <h3>Corporate Dashboard Application</h3>
-                    <p class="project-description">Developed an internal analytics dashboard for enterprise clients to visualize business metrics.</p>
-                    <p class="project-tech">Vue.js, D3.js, Firebase</p>
-                </div>
-            </section>
         </main>
     </div>
-
-    <footer class="cv-footer">
-        <div class="social-links">
-            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="#"><i class="fab fa-github"></i> GitHub</a>
-            <a href="#"><i class="fab fa-behance"></i> Behance</a>
-        </div>
-        <p class="copyright">&copy; 2025 Your Name. All rights reserved.</p>
-    </footer>
 </body>
 </html>
